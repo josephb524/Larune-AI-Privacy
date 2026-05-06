@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Larune Notes AI</title>
+    <style>
+        :root {
+            --bg-color: #fdfcf8;
+            --text-color: #1a1a1a;
+            --accent-color: #d4a017;
+            --secondary-text: #555;
+            --border-color: #e0e0e0;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "New York", serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-family: "New York", serif;
+            font-size: 2.5rem;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-family: "New York", serif;
+            font-size: 1.5rem;
+            margin-top: 30px;
+            color: var(--accent-color);
+        }
+
+        p, li {
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+        }
+
+        .last-updated {
+            font-style: italic;
+            color: var(--secondary-text);
+            margin-bottom: 30px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background: #fff;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+        }
+
+        footer {
+            margin-top: 60px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--secondary-text);
+            border-top: 1px solid var(--border-color);
+            padding-top: 20px;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Privacy Policy</h1>
+    <p class="last-updated">Last Updated: May 6, 2026</p>
+
+    <div class="section">
+        <p>Welcome to <strong>Larune Notes AI</strong>. Your privacy is a fundamental priority for us. This policy describes how we handle your data when you use our mobile application.</p>
+    </div>
+
+    <h2>1. Data We Process</h2>
+    <p>Larune Notes AI processes three main types of content:</p>
+    <ul>
+        <li><strong>Audio Data:</strong> Voice recordings made within the app or audio files you upload.</li>
+        <li><strong>Document Data:</strong> PDF files you upload for text extraction.</li>
+        <li><strong>Text Data:</strong> Transcripts generated from your audio and the AI-powered notes/summaries derived from them.</li>
+    </ul>
+
+    <h2>2. How We Process Your Data</h2>
+    
+    <h3>On-Device Transcription</h3>
+    <p>To ensure maximum privacy, all audio-to-text transcription is performed <strong>locally on your device</strong> using Whisper technology. Your raw audio files never leave your iPhone for the purpose of transcription.</p>
+
+    <h3>Cloud AI Processing</h3>
+    <p>To provide advanced features like summarization, title generation, and Q&A chat, the <strong>text transcriptions</strong> (not the audio) are securely processed using our cloud infrastructure. 
+    <ul>
+        <li>Transcripts are sent to our secure Cloudflare Worker proxy.</li>
+        <li>Inference is performed by Fireworks AI to generate summaries and answer your questions.</li>
+        <li>This data is used solely to generate the requested output and is not used to train global AI models.</li>
+    </ul>
+
+    <h2>3. Data Storage</h2>
+    <ul>
+        <li><strong>Local Storage:</strong> Your audio files and transcripts are stored permanently on your device's local storage. You can manage and delete these at any time within the app settings.</li>
+        <li><strong>Cloud Storage:</strong> We do not provide long-term cloud syncing of your notes. If you delete the app or your device, your local data will be lost unless you have backed up your device via iCloud.</li>
+    </ul>
+
+    <h2>4. Third-Party Services</h2>
+    <p>We use the following third-party services to provide the app's functionality:</p>
+    <ul>
+        <li><strong>Apple (App Store & StoreKit):</strong> For managing subscriptions and purchases. Apple handles your payment information directly.</li>
+        <li><strong>Cloudflare:</strong> For secure API routing and subscription verification.</li>
+        <li><strong>Fireworks AI:</strong> To provide the large language models used for summarization and Q&A.</li>
+    </ul>
+
+    <h2>5. Children's Privacy</h2>
+    <p>Larune Notes AI does not knowingly collect personal information from children under the age of 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us.</p>
+
+    <h2>6. Changes to This Policy</h2>
+    <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.</p>
+
+    <h2>7. Contact Us</h2>
+    <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at:</p>
+    <p><strong>Email:</strong> [Your Support Email Here]</p>
+
+    <footer>
+        &copy; 2026 Larune Notes AI. All rights reserved.
+    </footer>
+
+</body>
+</html>
+
