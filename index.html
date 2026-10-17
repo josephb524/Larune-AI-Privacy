@@ -1,172 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Larune Notes AI</title>
-    <style>
-        :root {
-            --bg-color: #fdfcf8;
-            --text-color: #1a1a1a;
-            --accent-color: #d4a017;
-            --secondary-text: #555;
-            --border-color: #e0e0e0;
-        }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "New York", serif;
-            line-height: 1.6;
-            color: var(--text-color);
-            background-color: var(--bg-color);
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-
-        h1 {
-            font-family: "New York", serif;
-            font-size: 2.5rem;
-            border-bottom: 2px solid var(--accent-color);
-            padding-bottom: 10px;
-            margin-bottom: 40px;
-        }
-
-        h2 {
-            font-family: "New York", serif;
-            font-size: 1.5rem;
-            margin-top: 30px;
-            color: var(--accent-color);
-        }
-
-        h3 {
-            font-family: "New York", serif;
-            font-size: 1.15rem;
-            margin-top: 25px;
-            margin-bottom: 10px;
-        }
-
-        p, li {
-            font-size: 1.1rem;
-            margin-bottom: 15px;
-        }
-
-        .last-updated {
-            font-style: italic;
-            color: var(--secondary-text);
-            margin-bottom: 30px;
-        }
-
-        .section {
-            margin-bottom: 40px;
-            padding: 20px;
-            background: #fff;
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-        }
-
-        footer {
-            margin-top: 60px;
-            text-align: center;
-            font-size: 0.9rem;
-            color: var(--secondary-text);
-            border-top: 1px solid var(--border-color);
-            padding-top: 20px;
-        }
-
-        a {
-            color: var(--accent-color);
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy · Larune</title>
+<style>
+  :root {
+    --bg: #f2f2f7; --surface: #ffffff; --text: #111114; --secondary: #6c6c72;
+    --accent: #3355e8; --border: #e3e3e8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #000000; --surface: #1c1c1e; --text: #f5f5f7; --secondary: #98989f; --accent: #7b93ff; --border: #38383a; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 16px 64px; }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+  .mark { width: 52px; height: 52px; border-radius: 12px; background: #3355e8; flex: none; }
+  h1 { font-size: 2rem; line-height: 1.15; margin: 0; letter-spacing: -0.01em; }
+  .meta { color: var(--secondary); margin: 6px 0 28px; }
+  .meta a, a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  section { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 18px 20px; margin: 14px 0; }
+  h2 { font-size: 1.15rem; margin: 0 0 8px; }
+  p, li { margin: 0 0 10px; }
+  ul { padding-left: 1.2em; margin: 0 0 6px; }
+  .lang { margin-top: 56px; padding-top: 28px; border-top: 1px solid var(--border); }
+  footer { color: var(--secondary); font-size: 0.9rem; margin-top: 32px; }
+</style>
 </head>
 <body>
+<main>
+<header>
+  <svg class="mark" viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="#3355E8"/><g stroke="#fff" stroke-width="6" stroke-linecap="round" fill="none"><path d="M22 44v12M31 36v28M40 41v18"/><path d="M53 38h26M53 50h22M53 62h14"/></g></svg>
+  <h1>Privacy Policy</h1>
+</header>
+<p class="meta">Larune · Last updated: October 16, 2026 · <a href="support/">Support</a> · <a href="#es">Versión en español ↓</a></p>
 
-    <h1>Privacy Policy</h1>
-    <p class="last-updated">Last Updated: August 23, 2026</p>
+<p><strong>Larune</strong> records lectures, meetings and voice memos and turns them into text on your iPhone or iPad. Your audio never leaves your device. This policy explains exactly what the app processes, where, and why.</p>
 
-    <div class="section">
-        <p>Welcome to <strong>Larune Notes AI</strong>. Your privacy is a fundamental priority for us. This policy describes how we handle your data when you use our mobile application.</p>
-    </div>
+<section>
+  <h2>1. What Larune processes</h2>
+  <ul>
+    <li><strong>Audio:</strong> recordings you make in the app and audio files you import.</li>
+    <li><strong>Documents:</strong> PDF files you import, so their text can be read.</li>
+    <li><strong>Text:</strong> the transcript made from your audio or PDF, the AI notes written from it, and the questions you ask about a note.</li>
+  </ul>
+</section>
 
-    <h2>1. Data We Process</h2>
-    <p>Larune Notes AI processes three main types of content:</p>
-    <ul>
-        <li><strong>Audio Data:</strong> Voice recordings made within the app or audio files you upload.</li>
-        <li><strong>Document Data:</strong> PDF files you upload for text extraction.</li>
-        <li><strong>Text Data:</strong> Transcripts generated from your audio and the AI-powered notes/summaries derived from them.</li>
-    </ul>
+<section>
+  <h2>2. Your audio stays on your device</h2>
+  <p>Transcription happens entirely on your iPhone or iPad, and it is free. <strong>Your recordings are never uploaded, never sent to us, and never leave your device.</strong> They are stored in the app, and you can delete them at any time in Settings → Storage or by deleting a note.</p>
+  <p>If you use Apple's iCloud Backup, your device backup may include the app's files, as it does for any app. You control that in iOS Settings.</p>
+</section>
 
-    <h2>2. How We Process Your Data</h2>
+<section>
+  <h2>3. Text sent to our server and to Fireworks AI</h2>
+  <p><strong>What is sent, and when.</strong> Only when you have Larune Pro and ask for AI notes, when a title is written for a note, or when you ask a question about a note: the <em>text</em> of that note's transcript (never the audio), your AI notes settings (style, length, sections, language, any custom instructions) and your question are sent over an encrypted connection (HTTPS) to our server.</p>
+  <p><strong>Who receives it.</strong> Our server is a Cloudflare Worker hosted by <strong>Cloudflare, Inc.</strong> It forwards that text to <strong>Fireworks AI, Inc.</strong>, the language-model provider that writes the notes, title or answer, and returns the result to you. Nobody else receives it.</p>
+  <p><strong>Your permission first.</strong> Before the first AI note on a device, Larune shows a screen that explains exactly this, and sends nothing until you tap Allow. You can withdraw that permission at any time in Settings → Privacy ("Send text to write notes"); Larune then asks again before the next AI note. Transcription stays on your device either way.</p>
+  <p><strong>Not kept, not used for training.</strong> This processing is transient: <strong>we do not store your transcripts, notes or questions on our server after your request completes</strong>, Fireworks AI processes them under its zero-data-retention terms, and <strong>neither we nor Fireworks AI use your content to train any model.</strong></p>
+</section>
 
-    <h3>On-Device Transcription</h3>
-    <p>To ensure maximum privacy, all audio-to-text transcription is performed <strong>locally on your device</strong> using Whisper technology. Your raw audio files never leave your iPhone for the purpose of transcription.</p>
+<section>
+  <h2>4. Service providers</h2>
+  <p>These are the only companies that handle anything from Larune, and what each one receives:</p>
+  <ul>
+    <li><strong>Apple Inc.</strong> — iCloud syncs your notes, folders and question history in your private iCloud database under your Apple Account and <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>. Apple also sells and manages subscriptions and the lifetime purchase; we never see your payment details.</li>
+    <li><strong>Cloudflare, Inc.</strong> — hosts our server. It sees the requests described above in transit, including your device's IP address, which is used to deliver the request, under <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare's privacy policy</a>.</li>
+    <li><strong>Fireworks AI, Inc.</strong> — the language-model provider that writes AI notes, titles and answers from the text our server forwards. Fireworks AI states that it does not log or store prompt or generation data for these models (the text exists only in memory during the request) and does not use API inputs to train or improve its models without an explicit opt-in, which we have not given. See its <a href="https://fireworks.ai/privacy-policy">privacy policy</a>.</li>
+  </ul>
+</section>
 
-    <h3>Cloud AI Processing</h3>
-    <p>To provide advanced features like summarization, title generation, and Q&amp;A chat, the <strong>text transcriptions</strong> (not the audio) are securely processed using our cloud infrastructure.</p>
-    <ul>
-        <li>Transcripts are sent to our secure Cloudflare Worker proxy.</li>
-        <li>Inference is performed by Fireworks AI to generate summaries and answer your questions.</li>
-        <li>This data is used solely to generate the requested output and is not used to train global AI models.</li>
-        <li>Our proxy does not store your transcripts, notes, or chat history. It records only the number of requests and the total volume of text processed, in order to enforce fair-use limits and prevent abuse.</li>
-    </ul>
+<section>
+  <h2>5. Purchase verification and daily allowances</h2>
+  <p>To confirm that you have Larune Pro, the app sends Apple's cryptographically signed transaction for your subscription or lifetime purchase to our server, which checks it with Apple. We never receive your name, email address or payment details. Our server uses the purchase's transaction number, which Apple assigns and which contains no personal details, only to check the purchase with Apple (remembering Apple's answer for up to a day), to prevent abuse and to count daily use (the lifetime plan includes up to 10 AI notes a day). Our logs keep only a one-way hash of that number. None of this holds any of your content.</p>
+</section>
 
-    <h2>3. iCloud Sync</h2>
-    <p>Larune Notes AI keeps your library up to date across the devices signed in to your Apple ID. This is on by default and requires no separate account or sign-in.</p>
+<section>
+  <h2>6. iCloud sync</h2>
+  <p>Your notes, transcripts, AI notes, folders, question history and AI notes preferences sync through your <strong>private</strong> iCloud database, under your Apple Account and Apple's privacy terms. We have no access to it. <strong>Audio never syncs</strong>: it stays only on the device that recorded or imported it. You can turn syncing off in iOS Settings → [your name] → iCloud.</p>
+</section>
 
-    <h3>What syncs</h3>
-    <ul>
-        <li>Your notes, transcripts, and AI-generated summaries.</li>
-        <li>Your folders and Q&amp;A chat history.</li>
-        <li>Your app preferences, such as summary language, length, and template.</li>
-    </ul>
+<section>
+  <h2>7. What we don't do</h2>
+  <ul>
+    <li>No advertising, and no advertising identifiers.</li>
+    <li>No third-party analytics or tracking of any kind.</li>
+    <li>No selling, renting or sharing of your data with anyone.</li>
+  </ul>
+</section>
 
-    <h3>What does not sync</h3>
-    <p><strong>Your audio recordings are never synced.</strong> A recording stays on the device that created it. Opening a note on another device shows its transcript and notes, but the original audio file remains only on the device where it was recorded.</p>
+<section>
+  <h2>8. Deleting your data</h2>
+  <p>Deleting a note in the app removes its transcript, AI notes and audio from your device and, through iCloud sync, from your other devices. Uninstalling the app removes everything stored on the device; notes in your iCloud can be removed in iOS Settings → [your name] → iCloud. Because our server keeps nothing, there is nothing to delete on our side. To stop text from being sent at all, turn off "Send text to write notes" in Settings → Privacy.</p>
+</section>
 
-    <h3>Where it is stored, and who can read it</h3>
-    <p>Synced content is stored in <strong>your own private iCloud database</strong>, provided by Apple and tied to your Apple ID. It is not stored on our servers, and <strong>we cannot access it</strong> &mdash; Apple's private database is readable only by the account that owns it. Its use of storage counts toward your personal iCloud quota.</p>
+<section>
+  <h2>9. Children</h2>
+  <p>Larune does not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided personal information, please contact us.</p>
+</section>
 
-    <h3>Your control</h3>
-    <ul>
-        <li>You can turn syncing off at any time in <strong>iOS Settings &rarr; [your name] &rarr; iCloud &rarr; Larune Notes AI</strong>.</li>
-        <li>Deleting a note on one device deletes it from your other devices as well.</li>
-        <li>Because your library is stored in iCloud, it is restored when you reinstall the app or set up a new device.</li>
-    </ul>
+<section>
+  <h2>10. Changes and contact</h2>
+  <p>If this policy changes, the new version will be posted at this address with an updated date. Questions or concerns about privacy? Email <a href="mailto:eltercerelias3@hotmail.com">eltercerelias3@hotmail.com</a>.</p>
+</section>
 
-    <h2>4. Data Storage and Retention</h2>
-    <ul>
-        <li><strong>On Your Device:</strong> Your audio files and notes are stored in the app's local storage. You can manage and delete them at any time in the app's settings.</li>
-        <li><strong>In Your iCloud:</strong> Your notes, folders, chat history, and preferences are stored in your private iCloud database as described in Section 3. This data persists if you delete the app, and is restored when you reinstall it while signed in to the same Apple ID. To remove it permanently, delete the notes from within the app, or remove the app's data in iOS Settings &rarr; [your name] &rarr; iCloud.</li>
-        <li><strong>Your Recordings and iCloud Backup:</strong> Audio recordings are never uploaded to our servers and never sync between your devices through the app. If you have Apple's <strong>iCloud Backup</strong> enabled on your iPhone, recordings stored by the app may be included in that device backup. This is Apple's standard device backup, which you control in iOS Settings.</li>
-        <li><strong>On Our Servers:</strong> We do not store your audio, transcripts, or notes.</li>
-    </ul>
+<div class="lang" id="es" lang="es">
+<h1>Política de privacidad</h1>
+<p class="meta">Larune · Última actualización: 16 de octubre de 2026 · <a href="support/">Soporte</a></p>
 
-    <h2>5. Third-Party Services</h2>
-    <p>We use the following third-party services to provide the app's functionality:</p>
-    <ul>
-        <li><strong>Apple (App Store &amp; StoreKit):</strong> For managing subscriptions and purchases. Apple handles your payment information directly.</li>
-        <li><strong>Apple (iCloud &amp; CloudKit):</strong> For storing and syncing your notes across your devices, in a private database tied to your Apple ID. This data is handled under Apple's privacy policy.</li>
-        <li><strong>Cloudflare:</strong> For secure API routing and subscription verification.</li>
-        <li><strong>Fireworks AI:</strong> To provide the large language models used for summarization and Q&amp;A.</li>
-    </ul>
+<p><strong>Larune</strong> graba clases, reuniones y notas de voz y las convierte en texto en tu iPhone o iPad. Tu audio nunca sale de tu dispositivo. Esta política explica exactamente qué procesa la app, dónde y por qué.</p>
 
-    <h2>6. Children's Privacy</h2>
-    <p>Larune Notes AI does not knowingly collect personal information from children under the age of 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us.</p>
+<section>
+  <h2>1. Qué procesa Larune</h2>
+  <ul>
+    <li><strong>Audio:</strong> las grabaciones que haces en la app y los archivos de audio que importas.</li>
+    <li><strong>Documentos:</strong> los archivos PDF que importas, para leer su texto.</li>
+    <li><strong>Texto:</strong> la transcripción hecha de tu audio o PDF, las notas con IA escritas a partir de ella y las preguntas que haces sobre una nota.</li>
+  </ul>
+</section>
 
-    <h2>7. Changes to This Policy</h2>
-    <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.</p>
+<section>
+  <h2>2. Tu audio se queda en tu dispositivo</h2>
+  <p>La transcripción ocurre completamente en tu iPhone o iPad, y es gratis. <strong>Tus grabaciones nunca se suben, nunca se nos envían y nunca salen de tu dispositivo.</strong> Se guardan en la app y puedes eliminarlas cuando quieras en Configuración → Almacenamiento o al eliminar una nota.</p>
+  <p>Si usas el respaldo de iCloud de Apple, el respaldo de tu dispositivo puede incluir los archivos de la app, como con cualquier app. Eso lo controlas en la app Configuración de iOS.</p>
+</section>
 
-    <h2>8. Contact Us</h2>
-    <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at:</p>
-    <p><strong>Email:</strong> eltercerelias3@hotmail.com</p>
+<section>
+  <h2>3. Texto enviado a nuestro servidor y a Fireworks AI</h2>
+  <p><strong>Qué se envía y cuándo.</strong> Solo cuando tienes Larune Pro y pides notas con IA, cuando se escribe el título de una nota o cuando haces una pregunta sobre una nota: el <em>texto</em> de la transcripción de esa nota (nunca el audio), tus ajustes de notas con IA (estilo, extensión, secciones, idioma y cualquier instrucción personalizada) y tu pregunta se envían por una conexión cifrada (HTTPS) a nuestro servidor.</p>
+  <p><strong>Quién lo recibe.</strong> Nuestro servidor es un Cloudflare Worker alojado por <strong>Cloudflare, Inc.</strong> Reenvía ese texto a <strong>Fireworks AI, Inc.</strong>, el proveedor de modelos de lenguaje que escribe las notas, el título o la respuesta, y te devuelve el resultado. Nadie más lo recibe.</p>
+  <p><strong>Primero, tu permiso.</strong> Antes de la primera nota con IA en un dispositivo, Larune muestra una pantalla que explica exactamente esto y no envía nada hasta que tocas Permitir. Puedes retirar ese permiso cuando quieras en Configuración → Privacidad ("Enviar texto para escribir notas"); Larune vuelve a preguntar antes de la siguiente nota con IA. La transcripción sigue en tu dispositivo en cualquier caso.</p>
+  <p><strong>No se guarda ni se usa para entrenar.</strong> Este procesamiento es momentáneo: <strong>no guardamos tus transcripciones, notas ni preguntas en nuestro servidor cuando termina tu solicitud</strong>, Fireworks AI las procesa bajo sus condiciones de retención cero de datos, y <strong>ni nosotros ni Fireworks AI usamos tu contenido para entrenar ningún modelo.</strong></p>
+</section>
 
-    <footer>
-        &copy; 2026 Larune Notes AI. All rights reserved.
-    </footer>
+<section>
+  <h2>4. Proveedores de servicios</h2>
+  <p>Estas son las únicas empresas que manejan algo de Larune, y lo que recibe cada una:</p>
+  <ul>
+    <li><strong>Apple Inc.</strong> — iCloud sincroniza tus notas, carpetas e historial de preguntas en tu base de datos privada de iCloud, bajo tu cuenta de Apple y la <a href="https://www.apple.com/legal/privacy/">política de privacidad de Apple</a>. Apple también vende y administra las suscripciones y la compra de por vida; nunca vemos tus datos de pago.</li>
+    <li><strong>Cloudflare, Inc.</strong> — aloja nuestro servidor. Ve en tránsito las solicitudes descritas arriba, incluida la dirección IP de tu dispositivo, que se usa para entregar la solicitud, bajo la <a href="https://www.cloudflare.com/privacypolicy/">política de privacidad de Cloudflare</a>.</li>
+    <li><strong>Fireworks AI, Inc.</strong> — el proveedor de modelos de lenguaje que escribe las notas con IA, los títulos y las respuestas a partir del texto que reenvía nuestro servidor. Fireworks AI declara que no registra ni guarda los datos de las solicitudes ni de las respuestas de estos modelos (el texto solo existe en memoria durante la solicitud) y que no usa los datos de su API para entrenar ni mejorar sus modelos sin una autorización explícita, que no hemos dado. Consulta su <a href="https://fireworks.ai/privacy-policy">política de privacidad</a>.</li>
+  </ul>
+</section>
 
+<section>
+  <h2>5. Verificación de compras y límites diarios</h2>
+  <p>Para confirmar que tienes Larune Pro, la app envía a nuestro servidor la transacción firmada criptográficamente por Apple de tu suscripción o compra de por vida, y el servidor la verifica con Apple. Nunca recibimos tu nombre, tu correo ni tus datos de pago. Nuestro servidor usa el número de transacción de la compra, que asigna Apple y que no contiene datos personales, solo para verificar la compra con Apple (y recordar su respuesta hasta por un día), evitar abusos y contar el uso diario (el plan de por vida incluye hasta 10 notas con IA al día). Nuestros registros guardan solo un hash de ese número, cifrado en un solo sentido. Nada de esto contiene tu contenido.</p>
+</section>
+
+<section>
+  <h2>6. Sincronización con iCloud</h2>
+  <p>Tus notas, transcripciones, notas con IA, carpetas, historial de preguntas y preferencias de notas con IA se sincronizan en tu base de datos <strong>privada</strong> de iCloud, bajo tu cuenta de Apple y las condiciones de privacidad de Apple. No tenemos acceso a ella. <strong>El audio nunca se sincroniza</strong>: se queda solo en el dispositivo que lo grabó o importó. Puedes desactivar la sincronización en Configuración de iOS → [tu nombre] → iCloud.</p>
+</section>
+
+<section>
+  <h2>7. Lo que no hacemos</h2>
+  <ul>
+    <li>No hay publicidad ni identificadores publicitarios.</li>
+    <li>No hay analítica ni rastreo de terceros de ningún tipo.</li>
+    <li>No vendemos, alquilamos ni compartimos tus datos con nadie.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>8. Cómo eliminar tus datos</h2>
+  <p>Al eliminar una nota en la app se eliminan su transcripción, sus notas con IA y su audio de tu dispositivo y, con la sincronización de iCloud, de tus otros dispositivos. Al desinstalar la app se elimina todo lo guardado en el dispositivo; las notas de tu iCloud se pueden eliminar en Configuración de iOS → [tu nombre] → iCloud. Como nuestro servidor no guarda nada, no hay nada que eliminar de nuestro lado. Para que no se envíe ningún texto, desactiva "Enviar texto para escribir notas" en Configuración → Privacidad.</p>
+</section>
+
+<section>
+  <h2>9. Menores de edad</h2>
+  <p>Larune no recopila a sabiendas información personal de menores de 13 años. Si eres madre, padre o tutor y crees que tu hijo o hija nos ha dado información personal, escríbenos.</p>
+</section>
+
+<section>
+  <h2>10. Cambios y contacto</h2>
+  <p>Si esta política cambia, la nueva versión se publicará en esta dirección con la fecha actualizada. ¿Dudas o comentarios sobre privacidad? Escribe a <a href="mailto:eltercerelias3@hotmail.com">eltercerelias3@hotmail.com</a>.</p>
+</section>
+</div>
+
+<footer>© 2026 Larune</footer>
+</main>
 </body>
 </html>
